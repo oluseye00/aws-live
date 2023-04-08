@@ -6,8 +6,8 @@ from config import *
 
 app = Flask(__name__)
 
-bucket = custombucket
-region = customregion
+bucket = product-employee
+region = us-east-1
 
 db_conn = connections.Connection(
     host=customhost,
